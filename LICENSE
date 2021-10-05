@@ -1,21 +1,36 @@
-MIT License
+IVL ArabCeleb Dataset 
 
-Copyright (c) 2021 Luigi
+ArabCeleb contains over 1930 utterances for 100 celebrities, extracted from videos uploaded to YouTube.  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+We provide Youtube URLs, associated gender, and age group, as
+well as cropped audio segments from the dataset.
+The copyright of both the original and cropped versions
+of the videos remains with the original owners.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The data is covered under a Creative Commons
+Attribution 4.0 International license (Please read the
+license terms here. https://creativecommons.org/licenses/by/4.0/).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Downloading this dataset implies agreement to follow the same
+conditions for any modification and/or
+re-distribution of the dataset in any form.
+
+
+Additionally any entity using this dataset agrees to the following conditions:
+
+THIS DATASET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Please cite [1] below if you make use of the dataset.
+
+[1] S. Bianco, L. Celona, I. Khalifa, P. Napoletano, A. Petrovsky, F. Piccoli, R. Schettini, and I. Shanin. ArabCeleb: Speaker Recognition in Arabic. In International Conference of the Italian Association for Artificial Intelligence (AIxIA), 2021.
