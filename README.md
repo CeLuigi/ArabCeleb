@@ -27,5 +27,10 @@ If you use our dataset, please consider cite the following:
 ```
 
 ## Download
+The dataset can be downloaded using the information provided into the file `info.json` as follows:
+1.
 
 
+## Contacts
+* Celona Luigi (luigi \<dot\> celona \<at\> unimib \<dot\> it)
+* Flavio Piccoli (flavio \<dot\> piccoli \<at\> unimib \<dot\> it)
