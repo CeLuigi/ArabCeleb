@@ -1,6 +1,6 @@
 # ArabCeleb
 
-ArabCeleb, a dataset collected in the wild that specifically focuses on arabic language. The proposed dataset contains utterances from 100 celebrities taken from video on YouTube.com. The dataset might be used for several speaker recognition tasks: identification, verification, gender recognition as well as multimodal recognition tasks thus integrating audio and video tracks.
+ArabCeleb is an audio dataset collected in the wild that specifically focuses on arabic language. The proposed dataset contains utterances from 100 celebrities taken from video on YouTube.com. The dataset might be used for several speaker recognition tasks: identification, verification, gender recognition as well as multimodal recognition tasks thus integrating audio and video tracks.
 
 ![](https://github.com/CeLuigi/ArabCeleb/blob/main/assets/teaser.png)
 
