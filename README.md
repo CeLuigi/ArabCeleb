@@ -4,6 +4,10 @@ ArabCeleb is an audio dataset collected in the wild that specifically focuses on
 
 ![](https://github.com/CeLuigi/ArabCeleb/blob/main/assets/teaser.png)
 
+To allow the training of methods for speaker identification that can then be reused for speaker verification, we generate the development and test sets making sure that there is no overlap between the speakers of the development and test sets. The development set is further divided into training, validation, and test sets for speaker identification.
+
+![](https://github.com/CeLuigi/ArabCeleb/blob/main/assets/split.png)
+
 ## Dependencies
 * Python 3.8
 * [pytube](https://pytube.io/en/latest/) 11.0.1
@@ -14,8 +18,14 @@ In order to successfully run the code, install the packages listed in `requireme
 pip install -r requirements.txt
 ```
 
-## Download
-The dataset can be downloaded using the information provided into the file `info.json` running the script `prepare_dataset.py` as follows:
+## Downloads
+We provide Youtube URLs, timestamps for utterances, and speaker metadata.
+
+### URLs and timestamps
+We provide URLs for each YouTube video and timestamps for utterances into the file [`utteramce_info.json`](https://github.com/CeLuigi/ArabCeleb/blob/main/utterance_info.json).
+
+### Audio files
+The audio files can be downloaded using the information provided into the file `info.json` running the script `prepare_dataset.py` as follows:
 ```
 python prepare_dataset.py
 ```
@@ -25,6 +35,13 @@ The script:
  <li>Cut the entire video into video sequences</li>
  <li>Extract and save the audio signal into wav a file</li>
 </ol>
+
+### Metadata
+Full names, year of born, and gender labels for all the speakers in the dataset can be found in [`speaker_info.csv`](https://github.com/CeLuigi/ArabCeleb/blob/main/speaker_info.csv).
+
+[**Dataset split for identification**](https://github.com/CeLuigi/ArabCeleb/blob/main/iden_split.txt)
+
+[**List of trial pairs for verification**](https://github.com/CeLuigi/ArabCeleb/blob/main/veri_test.txt)
 
 ## License
 The ArabCeleb dataset is available to download for commercial/research purposes under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The copyright remains with the original owners of the video. A complete version of the license can be found [here](https://github.com/CeLuigi/ArabCeleb/blob/main/LICENSE).
