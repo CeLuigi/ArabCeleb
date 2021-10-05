@@ -22,7 +22,7 @@ pip install -r requirements.txt
 We provide Youtube URLs, timestamps for utterances, and speaker metadata.
 
 ### URLs and timestamps
-We provide URLs for each YouTube video and timestamps for utterances into the file [`utteramce_info.json`](https://github.com/CeLuigi/ArabCeleb/blob/main/utterance_info.json).
+We provide URLs for each YouTube video and timestamps for utterances into the file [`utterance_info.json`](https://github.com/CeLuigi/ArabCeleb/blob/main/utterance_info.json).
 
 ### Audio files
 The audio files can be downloaded using the information provided into the file `info.json` running the script `prepare_dataset.py` as follows:
