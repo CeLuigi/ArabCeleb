@@ -29,7 +29,7 @@ If you use our dataset, please consider cite the following:
 ## Download
 The dataset can be downloaded using the information provided into the file `info.json` running the script `prepare_dataset.py` as follows:
 ```
-python prepare_datase.py
+python prepare_dataset.py
 ```
 The script:
 <ol>
