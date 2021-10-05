@@ -27,9 +27,16 @@ If you use our dataset, please consider cite the following:
 ```
 
 ## Download
-The dataset can be downloaded using the information provided into the file `info.json` as follows:
-1.
-
+The dataset can be downloaded using the information provided into the file `info.json` running the script `prepare_dataset.py` as follows:
+```
+python prepare_datase.py
+```
+The script:
+<ol>
+ <li>Download the video at the given Youtube URL</li>
+ <li>Cut the entire video into video sequences</li>
+ <li>Extract and save the audio signal into wav a file</li>
+</ol>
 
 ## Contacts
 * Celona Luigi (luigi \<dot\> celona \<at\> unimib \<dot\> it)
