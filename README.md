@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## Citation
-If you use our code, please consider cite the following:
+If you use our dataset, please consider cite the following:
 * Simone Bianco, Luigi Celona, Intissar Khalifa, Paolo Napoletano, Alexey Petrovsky, Flavio Piccoli, Raimondo Schettini, and Ivan Shanin. ArabCeleb: Speaker Recognition in Arabic. In _International Conference of the Italian Association for Artificial Intelligence (AIxIA)_, 2021.
 ```
 @inproceedings{bianco2021arabceleb,
