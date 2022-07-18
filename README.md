@@ -52,12 +52,16 @@ Please contact the authors below if you have any queries regarding the dataset.
 
 ## Citation
 Please cite the following if you make use of the dataset:
-* Simone Bianco, Luigi Celona, Intissar Khalifa, Paolo Napoletano, Alexey Petrovsky, Flavio Piccoli, Raimondo Schettini, and Ivan Shanin. ArabCeleb: Speaker Recognition in Arabic. In _International Conference of the Italian Association for Artificial Intelligence (AIxIA)_, 2021.
+* Simone Bianco, Luigi Celona, Intissar Khalifa, Paolo Napoletano, Alexey Petrovsky, Flavio Piccoli, Raimondo Schettini, and Ivan Shanin. ArabCeleb: Speaker Recognition in Arabic. In _AIxIA 2021 - Advances in Artificial Intelligence_, Springer, pp. 338-347, 2022.
 ```
 @inproceedings{bianco2021arabceleb,
  author = {Bianco, Simone and Celona, Luigi and Khalifa, Intissar and Napoletano, Paolo and Petrovsky, Alexey and Piccoli, Flavio and Schettini, Raimondo and Shanin, Ivan},
- year = {2021},
+ booktitle="AIxIA 2021 -- Advances in Artificial Intelligence",
+ year="2022",
+ publisher="Springer International Publishing",
+ address="Cham",
+ pages="338--347",
  title = {ArabCeleb: Speaker Recognition in Arabic},
- booktitle = {International Conference of the Italian Association for Artificial Intelligence (AIxIA)},
+ isbn="978-3-031-08421-8"
 }
 ```
